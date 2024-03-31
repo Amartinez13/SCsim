@@ -92,7 +92,7 @@ function clkt(ev){
 					ctx.fillStyle="rgb(16,16,16)";
 					ctx.fillRect(xt,yt,65,150);
 					ctx.drawImage(tr,xtf,ytf);
-                    ctx.drawImage(ge,xgf,ygf);
+                   		  	ctx.drawImage(ge,xgf,ygf);
 				}
 			}
 		}
@@ -107,7 +107,7 @@ function clkt(ev){
 					ctx.fillStyle="rgb(16,16,16)";
 					ctx.fillRect(xt,yt,65,150);
 					ctx.drawImage(tr,xtf,ytf);
-                    ctx.drawImage(re,xrf,yrf);
+                    			ctx.drawImage(re,xrf,yrf);
 				}
 			}
 		}
@@ -211,7 +211,7 @@ function clkg(evg){
 					ctx.fillStyle="rgb(16,16,16)";
 					ctx.fillRect(xg,yg,65,150);
 					ctx.drawImage(ge,xgf,ygf);
-                    ctx.drawImage(tr,xtf,ytf);
+                    			ctx.drawImage(tr,xtf,ytf);
 					p="T+G";
 				}
 			}
@@ -226,7 +226,7 @@ function clkg(evg){
 					ygf=yrf+150;
 					ctx.fillStyle="rgb(16,16,16)";
 					ctx.fillRect(xg,yg,65,150);
-                    ctx.drawImage(re,xrf,yrf);
+                    			ctx.drawImage(re,xrf,yrf);
 					p="R+G"
 				}
 			}
@@ -242,8 +242,8 @@ function clkg(evg){
 					ctx.fillStyle="rgb(16,16,16)";
 					ctx.fillRect(xg,yg,65,150);
 					ctx.drawImage(ge,xgf,ygf);
-                    ctx.drawImage(re,xrf,yrf);
-                    ctx.drawImage(tr,xtf,ytf);
+                    			ctx.drawImage(re,xrf,yrf);
+                    			ctx.drawImage(tr,xtf,ytf);
 					p="R+T+G";
 				}
 			}
@@ -325,7 +325,7 @@ function clkr(evr){
 					ctx.fillStyle="rgb(16,16,16)";
 					ctx.fillRect(xr,yr,65,150);
 					ctx.drawImage(re,xrf,yrf);
-                    ctx.drawImage(ge,xgf,ygf);
+                    			ctx.drawImage(ge,xgf,ygf);
 				}
 			}
 		}
@@ -340,7 +340,7 @@ function clkr(evr){
 					ctx.fillStyle="rgb(16,16,16)";
 					ctx.fillRect(xr,yr,65,150);
 					ctx.drawImage(re,xrf,yrf);
-                    ctx.drawImage(tr,xtf,ytf);
+                    			ctx.drawImage(tr,xtf,ytf);
 				}
 			}
 		}
